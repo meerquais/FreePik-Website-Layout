@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+.background{
+    background-color: rgb(23, 74, 241);
+}
+.nav_bar_top{
+    margin: -10px;
+}
+.customeNav ul li a{
+    color: white !important;
+}
+.customeNav li a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.customeNav1{
+    margin-left: 135px;
+}
+.customeNav1 li{
+    padding: 5px !important;
+    
+}
+.button_btn{
+    border: 1px solid white;
+    background-color: rgb(23, 74, 241);
+    border-radius: 6px;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: white;
+}
+.margin_1{
+    margin: -2px;
+}
+
+/* Nav Bar Ends Here! */
+
+.second_sec{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.second_sec h1 , .second_sec h2{
+    font-size: 26px;
+    margin-top: 15px !important;
+    margin: 5px;
+}
+.search_sec{
+    margin-top: 20px;
+}
+.search_sec button{
+    padding: 0px 40px !important;
+}
+.search_sec input{
+    padding: 10px 200px !important;
+}
+.icons_sec ul {
+    list-style-type: none;
+}
+.icons_sec ul li{
+    margin: 0px -15px;
+    background-color: rgb(143, 196, 245 );
+    opacity: 90%;
+    border-radius: 5px;
+    padding: 2px;
+}
+.icons_sec ul li:hover{
+    background-color: rgb(143, 196, 245 );
+    opacity: 50%;
+}
+.icons_sec ul li a , .icons_sec ul li{
+    text-decoration: none;
+    color: white;
+}
